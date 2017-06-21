@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EF\GameStoreContext.cs" />
+    <Compile Include="EF\GameStoreInitializer.cs" />
     <Compile Include="Infrastructure\DataAccessModule.cs" />
     <Compile Include="Interfaces\IRepository.cs" />
     <Compile Include="Interfaces\IRepositoryFactory.cs" />

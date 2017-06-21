@@ -10,8 +10,10 @@ namespace DAL.EF
         {
         }
 
-        public DbSet<Game> Products { get; set; }
-        public DbSet<Comment> Orders { get; set; }
+        public DbSet<Game> Games { get; set; }
+        public DbSet<Comment> Comments { get; set; }
+        public DbSet<Genre> Genres { get; set; }
+        public DbSet<PlatformType> Types { get; set; }
 
         public static GameStoreContext Create()
         {
